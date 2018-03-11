@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27205.2004
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDialogs", "MultipleDialogs\MultipleDialogs.csproj", "{EA93734F-85EC-4DF5-AB12-3B3774A4B126}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA93734F-85EC-4DF5-AB12-3B3774A4B126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA93734F-85EC-4DF5-AB12-3B3774A4B126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA93734F-85EC-4DF5-AB12-3B3774A4B126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA93734F-85EC-4DF5-AB12-3B3774A4B126}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53074B46-8A95-4ABC-94EF-FED6BA940163}
+	EndGlobalSection
+EndGlobal
