@@ -2,10 +2,11 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
-using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Connector;
+using Microsoft.Bot.Builder.Dialogs;
+using BasicMultiDialogBot.Dialogs;
 
-namespace MultipleDialogs
+namespace BasicMultiDialogBot
 {
     [BotAuthentication]
     public class MessagesController : ApiController
@@ -18,7 +19,9 @@ namespace MultipleDialogs
         {
             if (activity.Type == ActivityTypes.Message)
             {
-                await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());
+                /* Creates a dialog stack for the new conversation, adds RootDialog to the stack, and forwards all 
+                 *  messages to the dialog stack. */
+                await Conversation.SendAsync(activity, () => new RootDialog());
             }
             else
             {

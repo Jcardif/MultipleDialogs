@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MultipleDialogs")]
+[assembly: AssemblyTitle("BasicMultiDialogBot")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MultipleDialogs")]
+[assembly: AssemblyProduct("BasicMultiDialogBot")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ea93734f-85ec-4df5-ab12-3b3774a4b126")]
+[assembly: Guid("a8ba1066-5695-4d71-abb4-65e5a5e0c3d4")]
 
 // Version information for an assembly consists of the following four values:
 //
